@@ -1,0 +1,94 @@
+header, nav, .main, footer{
+    width: 95%;
+    max-width: 1000px;
+    margin: 10px auto;
+}
+
+body {
+   
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color:#7e2424;
+    
+}
+h1{
+    font-family:ChallengeCountour ;
+    font-size:45px;
+    color:rgb(116, 110, 88);
+    -webkit-text-stroke:1px rgb(184, 181, 147);
+}
+
+
+nav{
+    color:rgba(45, 150, 31, 0.836);
+    background: rgba(39, 83, 41, 0.829);
+    overflow: hidden;
+    margin: 10px auto;
+}
+
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    float: left;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color:rgba(255, 255, 255, 0.76);
+    text-decoration: none;
+}
+.main .articles{
+    width: 60%;
+    margin-right: 1.5%;
+    float:left;
+}
+.main .articles article{
+    padding: 10px;
+    background-color: #e6dcdc;
+    opacity:0.5;
+    margin-bottom: 10px;
+    
+}
+
+aside {
+    width: 30%;
+    float: left;
+    background-color: rgb(223, 126, 16);
+    
+}
+
+footer{
+    
+    clear:both;
+    background: black;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+}
+.ic{
+    display:flex;
+}
+.i{
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+}
+.z{
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+}
+.i{
+    width: 30%;
+    float: left;
+    margin-top: 10px;
+}
+@font-face{
+    font-family: 'ChallengeCountour';
+    src: url('ChallengeContour.ttf')
+
+}
+form{
+    padding-left: 35%;
+}
